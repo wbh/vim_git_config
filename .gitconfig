@@ -1,0 +1,14 @@
+[user]
+	email = haoweibing@gmail.com
+	name = WB
+[diff]
+	tool = winmerge
+[alias]
+	lg = log --all --graph --oneline --decorate
+	gl = log --pretty=format:%h %s %d [%an]--graph --date=short
+	llg = log --all  --graph --decorate --pretty=raw
+	l = log --all --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	ld = log --all --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
+	ls = log --all --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative --graph
+
